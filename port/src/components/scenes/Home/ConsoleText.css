@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body {
+  background-color: #010;
+}
+
+.sub_title {
+  font-family: "Cairo";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for visibility */
+}
+
+/* Styling your button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: rgba(131, 72, 72, 0.8); /* Use rgba with reduced opacity */
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: rgba(150, 176, 46, 0.8); /* Change the hover background color */
+  color: rgb(57, 172, 0);
+}
