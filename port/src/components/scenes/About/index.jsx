@@ -19,7 +19,7 @@ export default function About() {
         <Box>
           <img src="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696067888/ocdnmfmapngsknxqlz2z.png" className="profile" />
         </Box>
-        <Box className="right_box">
+        <Box className="right_box" >
           <Box sx={{ width: "100%", padding: "1rem" }}>
             <Typography fontSize={20}>
               I am Shankar Rao Jadav C, Full Stack Developer from Karnataka,
