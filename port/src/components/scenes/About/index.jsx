@@ -36,7 +36,7 @@ export default function About() {
                 }}
                 variant="contained"
               >
-                <Link to="../../../../public/assets/SHANKARCV.PDF" download="SHANKAR_CV" target="_blank" style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
+                <Link to="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696075326/m5mbmzshtmwpgdsecg28.pdf" download="SHANKAR_CV" target="_blank" style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
               </Button>
             </Box>
           </Box>
