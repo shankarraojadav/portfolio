@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./Background.css";
+import "./background.css";
 import "./ConsoleText.css";
 import { GitHub } from "@mui/icons-material";
 import { Link } from "react-router-dom";
