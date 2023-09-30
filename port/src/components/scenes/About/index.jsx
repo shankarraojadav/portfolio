@@ -17,7 +17,7 @@ export default function About() {
 
       <Box className="container">
         <Box>
-          <img src="../../../.././assets/profile.png" className="profile" />
+          <img src="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696067888/ocdnmfmapngsknxqlz2z.png" className="profile" />
         </Box>
         <Box className="right_box">
           <Box sx={{ width: "100%", padding: "1rem" }}>
@@ -36,7 +36,7 @@ export default function About() {
                 }}
                 variant="contained"
               >
-                <Link to="../../../../public/assets/SATHISH.PDF" download="SHANKAR_CV" target="_blank" style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
+                <Link to="../../../../public/assets/SHANKARCV.PDF" download="SHANKAR_CV" target="_blank" style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
               </Button>
             </Box>
           </Box>

@@ -91,7 +91,7 @@ export default function Home() {
             alignItems: "center",
           }}
         >
-          <img src="../../../.././assets/profile.png" className="profile" />
+          <img src="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696067888/ocdnmfmapngsknxqlz2z.png" className="profile" />
           <p
             className="profile_text"
             style={{
@@ -138,7 +138,7 @@ export default function Home() {
             margin: "1rem",
           }}
         >
-          <Link to="../../../../public/assets/SATHISH.PDF" download="SHANKAR_CV" target="_blank"  style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
+          <Link to="../../../../public/assets/SHANKARCV.PDF" download="SHANKAR_CV" target="_blank"  style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
         </Button>
       </Box>
     </Box>

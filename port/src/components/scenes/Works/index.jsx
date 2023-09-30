@@ -1,4 +1,6 @@
 import { Box, Typography } from "@mui/material";
+import { GitHub, Language } from "@mui/icons-material";
+import {Link} from "react-router-dom";
 import { works } from "../../data";
 import "./work.css";
 
@@ -23,6 +25,11 @@ export default function Works() {
                     {i.card_desc}
                   </p>
                 </Box>
+                <Box className="github">
+                  <Link to={i.github} target="_blank"><GitHub sx={{fontSize:"40px"}} /></Link>
+                  <Link to={i.live} target="_blank"><Language sx={{fontSize:"40px"}} /></Link>
+              </Box>
+
               </Box>
              
             </Box>
