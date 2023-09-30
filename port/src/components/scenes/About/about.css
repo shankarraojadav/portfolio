@@ -1,0 +1,36 @@
+
+.about {
+    margin: 1rem;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_box {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 blue;
+    width: 80%;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 2rem
+}
+
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .right_box {
+        flex-wrap: wrap;
+    }
+}
+

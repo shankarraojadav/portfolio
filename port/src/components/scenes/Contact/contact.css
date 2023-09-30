@@ -1,0 +1,56 @@
+
+
+.contact {
+    height: 100vh;
+    overflow-y: auto;
+    margin-top: 10vh;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text_field {
+    width: 300px;
+    margin: 20px !important;
+}
+
+
+
+
+.end_result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px !important;
+    margin-top: 20vh;
+    font-family: sans-serif;
+}
+
+.end_result .panda_img {
+    border: none;
+    border-radius: 50% !important;
+    width: 200px;
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.7); 
+  }
+  
+ 
+  .end_result .panda_img:hover {
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.9); 
+    transform: scale(1.1); 
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+  }
+  
+
+@media (max-width : 600px) {
+    .text_field {
+        width: 100%;
+    }
+    
+}

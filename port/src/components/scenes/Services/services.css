@@ -1,0 +1,41 @@
+.services {
+  height: 100vh;
+  /* padding-bottom: 2rem; */
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card_box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 0 20px ;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.card_box:hover {
+  transform: scale(1.1) ;
+}
+
+
+@media (max-width: 600px) {
+  .card_container {
+    gap: 20px;
+  }
+
+  .card_box:hover {
+    transform: none ;
+  }
+}

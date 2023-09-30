@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik&display=swap');
 
 
-body {
-    margin: 0;
-    height: 100%;
-    background-color: #bd1060;
-    overflow: hidden;
-  }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+
   * {
     margin: 0;
     padding: 0;
@@ -58,10 +62,8 @@ body {
 }
 
 .profile_text {
-    color: #9400FF;
     font-size: 26px;
     font-family: "Rubik",sans-serif;
-    font-weight: 700;
     font-weight: bold;
 }
 
