@@ -19,7 +19,7 @@ function Contact() {
   }
   return (
     <Box sx={{ margin: "1rem" }}>
-      <Typography variant="h1">GET IN TOUCH</Typography>
+      <Typography variant="h2">GET IN TOUCH</Typography>
       <form
         action="https://formspree.io/f/mbjvpdnb"
         method="POST"

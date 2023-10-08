@@ -7,7 +7,7 @@ import "./work.css";
 export default function Works() {
   return (
    <Box>
-    <Typography m="1rem" variant="h1">Recent Works</Typography>
+    <Typography m="1rem" variant="h2">Recent Works</Typography>
      <Box sx={{display:"flex", flexDirection:"row", flexWrap:"wrap", 
     justifyContent:"center", padding:"10vh"}}>
       {works.map((i, index) => {

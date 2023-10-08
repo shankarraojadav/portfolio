@@ -36,7 +36,7 @@ export default function Layout() {
           isSidebarOpen={isSidebarOpen}
           setIsSidebarOpen={setIsSidebarOpen}
           isNonMobile={isNonMobile}
-          toggleSidebar={toggleSidebar} // Pass the toggleSidebar function to the Navbar
+          toggleSidebar={toggleSidebar} 
         />
         <Outlet />
       </Box>

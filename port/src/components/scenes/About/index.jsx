@@ -12,7 +12,7 @@ export default function About() {
   return (
     <Box className="about">
       <Box>
-        <Typography variant="h1">About</Typography>
+        <Typography variant="h2">About</Typography>
       </Box>
 
       <Box className="container">
@@ -36,7 +36,7 @@ export default function About() {
                 }}
                 variant="contained"
               >
-                <Link to="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696075326/m5mbmzshtmwpgdsecg28.pdf" download="SHANKAR_CV" target="_blank" style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
+                <Link to="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696780695/shankar_CV_s7fa17.pdf" download="SHANKAR_CV" target="_blank" style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
               </Button>
             </Box>
           </Box>

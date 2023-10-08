@@ -7,7 +7,7 @@ export default function Services () {
     const theme = useTheme();
     return (
         <Box className="services">
-            <Typography variant="h1">Services</Typography>
+            <Typography variant="h2">Services</Typography>
             <Box className="card_container">
                 {
                     service_list.map((i, index) => {

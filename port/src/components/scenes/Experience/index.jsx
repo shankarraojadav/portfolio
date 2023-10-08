@@ -5,22 +5,22 @@ const Experience = () => {
     const theme = useTheme();
   return (
     <Box className="experience" sx={{padding:"40px", color:theme.palette.secondary[100]}}>
-        <Typography variant="h1">Experience</Typography>
+        <Typography variant="h3">Experience</Typography>
    
     <Box className="timeline">
         
       <Box className="timeline__component">
         <Box className="timeline__date timeline__date--right">
-          July 30, 2023
+          Jan 30, 2023
         </Box>
       </Box>
       <Box className="timeline__middle">
         <Box className="timeline__point"></Box>
       </Box>
       <Box className="timeline__component timeline__component--bg">
-        <Typography className="timeline__title">Completed 1 year</Typography>
+        <Typography className="timeline__title">Kigan Innovations</Typography>
         <Typography className="timeline__paragraph">
-          Successfully completed 1 year as a freelance/contract developer.
+          Joined Kigan Innovations as a Full stack developer Inter
         </Typography>
       </Box>
       <Box className="timeline__component timeline__component--bg">
@@ -34,7 +34,7 @@ const Experience = () => {
         <Box className="timeline__point"></Box>
       </Box>
       <Box className="timeline__component">
-        <Box className="timeline__date">March 25, 2022</Box>
+        <Box className="timeline__date">July 25, 2022</Box>
       </Box>
       <Box className="timeline__component">
         <Box className="timeline__date timeline__date--right">

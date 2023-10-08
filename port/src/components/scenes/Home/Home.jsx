@@ -138,7 +138,7 @@ export default function Home() {
             margin: "1rem",
           }}
         >
-          <Link to="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696075326/m5mbmzshtmwpgdsecg28.pdf" download="SHANKAR_CV" target="_blank"  style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
+          <Link to="https://res.cloudinary.com/dflhxdxgb/image/upload/v1696780695/shankar_CV_s7fa17.pdf" download="SHANKAR_CV" target="_blank"  style={{textDecoration:"none"}}>DOWNLOAD CV</Link>
         </Button>
       </Box>
     </Box>
